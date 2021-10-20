@@ -1,0 +1,19 @@
+.place__url{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+  text-decoration-line: none;
+  margin-bottom: 12px;
+  transform: opacity 0.2s ease;
+}
+.place__url:hover{
+  opacity: 0.8;
+}
+@media screen and (max-width: 767px){
+  .place__url{
+    padding: 0 16px;
+  }
+}

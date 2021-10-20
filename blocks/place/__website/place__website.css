@@ -1,0 +1,19 @@
+.place__website{
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  transform: opacity 0.2s ease;
+}
+.place__website:hover{
+  opacity: 0.8;
+}
+@media screen and (max-width: 767px){
+  .place__website{
+    padding: 0 16px;
+  }
+}
