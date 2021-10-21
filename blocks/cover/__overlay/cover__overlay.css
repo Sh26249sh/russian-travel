@@ -7,7 +7,8 @@
   justify-content: center;
   position: relative;
   z-index: 1; 
-  height: 740px;
+  min-height: 740px;
+  text-decoration: none;
 }
 .cover__overlay:before{
   position: absolute;
@@ -22,19 +23,7 @@
 }
 @media screen and (max-width:1279px) {
   .cover__overlay{
-    height: 62.5vw;
-    width: 100%;
-  }
-}
-@media screen and (max-width:1023px) {
-  .cover__overlay{
-    height: 62.5vw;
-    width: 100%;
-  }
-}
-@media screen and (max-width:767px) {
-  .cover{
-    height: 62.5vw;
+    min-height: 62.5vw;
     width: 100%;
   }
 }
