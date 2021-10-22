@@ -31,5 +31,6 @@
     "img" 
     "text";
     margin-bottom: 50px;
+    row-gap: 32px;
   }
 }
